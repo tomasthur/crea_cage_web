@@ -21,7 +21,7 @@ export const articles: Article[] = [
       
       <p>Kapela zároveň sľubuje aj žánrovú pestrosť, ktorá sa nebude držať výlučne metalových koreňov. „Ako každá kapela, aj my sme sa rokmi vyvíjali. Od metalu sme sa postupne dostali k rocku, kde sa cítime doma. Päť nových skladieb tak prinesie všetko od tvrdšieho rocku až po romantickú baladu," dodáva gitarista a spevák Martin Hudák.</p>
       
-      <p>Prvá skladba bude oficiálne predstavená 1. marca, ďalšie budú pribúdať v desaťdňových intervaloch. Posledná, špeciálna skladba, má naplánovaný dátum vydania na 1. júla. „Táto pieseň má pre nás výnimočný význam. Naspieval nám ju legendárny Spoko z kapely Smola a Hrušky, čo je pre nás obrovská česť. Veríme, že sa bude ľuďom páčiť," uzatvára Martin Hudák.</p>
+      <p>Prvá skladba bude oficiálne predstavená 1. marca, ďalšie budú pribúdať v mesačných intervaloch. Posledná, špeciálna skladba, má naplánovaný dátum vydania na 1. júla. „Táto pieseň má pre nás výnimočný význam. Naspieval nám ju legendárny Spoko z kapely Smola a Hrušky, čo je pre nás obrovská česť. Veríme, že sa bude ľuďom páčiť," uzatvára Martin Hudák.</p>
       
       <p>Či sa Crea Cage podarí túto výzvu splniť, ukážu najbližšie mesiace.</p>
     `,
