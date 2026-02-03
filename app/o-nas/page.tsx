@@ -44,7 +44,7 @@ export default function ONas() {
               Crea Cage až na pár výnimiek nekoncertovala dlhých 5 rokov, no všetko sa to zmení už 
               v tomto roku. V rámci svojho návratu si kapela pre svojich fanúšikov pripravila 
               <span className="text-[#ff0000] font-semibold"> 5 nových piesní</span>, ktoré vydá v priebehu 
-              50 dní (<span className="text-[#ff0000] font-semibold">5 in 50 challenge</span>). 
+              5 mesiacov (<span className="text-[#ff0000] font-semibold">5 in 5 challenge</span>). 
               Prvý song uzrie svetlo sveta už 1. marca.
             </p>
             </AnimateOnScroll>

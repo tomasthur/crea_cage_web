@@ -20,7 +20,7 @@ export default function Home() {
           priority
         />
         <Image
-          src="/images/5_in_50.png"
+          src="/images/5_in_5.png"
           alt="5 in 50"
           width={100}
           height={100}
