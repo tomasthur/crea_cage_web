@@ -12,19 +12,12 @@ export default function Home() {
       {/* Hero Section */}
       <section className="w-full h-[calc(100vh-5rem)] pt-52 pb-8 flex items-center justify-center bg-[#1a1a1a] relative overflow-hidden">
         <Image
-          src="/images/crea_cage_2.png"
+          src="/images/web_s_logom.png"
           alt="Crea Cage"
           width={1200}
           height={800}
           className="h-[85vh] w-auto object-contain opacity-50 animate-float"
           priority
-        />
-        <Image
-          src="/images/5_in_5.png"
-          alt="5 in 50"
-          width={100}
-          height={100}
-          className="absolute -bottom-8 left-1/2 -translate-x-1/2 w-96 h-auto -rotate-12"
         />
       </section>
 
