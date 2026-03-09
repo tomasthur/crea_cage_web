@@ -77,17 +77,30 @@ export default function SledujNas() {
           <AnimateOnScroll animation="fade-in-up" delay={200}>
             <div className="bg-[#2a2a2a] p-8 rounded-2xl text-center">
               <h2 className="text-3xl font-bold mb-4">Našu hudbu nájdeš aj na</h2>
-              <a
-                href="https://www.youtube.com/@creacage"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-3 px-8 py-4 bg-[#FF0000] hover:bg-[#cc0000] text-white font-bold text-lg rounded-lg transition-colors"
-              >
-                <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-                </svg>
-                YOUTUBE
-              </a>
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a
+                  href="https://open.spotify.com/artist/0mrQHGqscNvLdINzb42DTn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-[#252525] border border-[#3a3a3a] hover:bg-[#2f2f2f] hover:border-[#ff0000] text-white font-bold text-lg rounded-lg transition-all duration-200 hover:scale-105"
+                >
+                  <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.512 17.337a.75.75 0 0 1-1.032.252c-2.829-1.728-6.392-2.12-10.59-1.166a.75.75 0 0 1-.333-1.463c4.593-1.044 8.534-.597 11.704 1.339a.75.75 0 0 1 .251 1.038zm1.474-3.28a.938.938 0 0 1-1.289.315c-3.238-1.991-8.169-2.568-11.998-1.404a.938.938 0 0 1-.545-1.794c4.373-1.327 9.799-.689 13.524 1.599.441.271.579.848.308 1.284zm.126-3.416c-3.883-2.306-10.289-2.517-13.996-1.403a1.125 1.125 0 1 1-.648-2.154c4.252-1.278 11.328-1.032 15.789 1.617a1.125 1.125 0 0 1-1.145 1.94z"/>
+                  </svg>
+                  SPOTIFY
+                </a>
+                <a
+                  href="https://www.youtube.com/@creacage"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-[#FF0000] hover:bg-[#cc0000] text-white font-bold text-lg rounded-lg transition-colors"
+                >
+                  <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                  </svg>
+                  YOUTUBE
+                </a>
+              </div>
             </div>
           </AnimateOnScroll>
         </div>

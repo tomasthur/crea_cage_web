@@ -1,6 +1,7 @@
 import Navigation from '@/components/Navigation';
 import Link from 'next/link';
 import AnimateOnScroll from '@/components/AnimateOnScroll';
+import Image from 'next/image';
 
 export default function ONas() {
   return (
@@ -45,7 +46,7 @@ export default function ONas() {
               v tomto roku. V rámci svojho návratu si kapela pre svojich fanúšikov pripravila 
               <span className="text-[#ff0000] font-semibold"> 5 nových piesní</span>, ktoré vydá v priebehu 
               5 mesiacov (<span className="text-[#ff0000] font-semibold">5 in 5 challenge</span>). 
-              Prvý song uzrie svetlo sveta už 1. marca.
+              Prvý song uzrel svetlo sveta 1. marca 2026 a nájdeš ho <a href="https://www.youtube.com/watch?v=MDcnqwB1Qc0" target="_blank" rel="noopener noreferrer" className="text-[#ff0000] hover:text-[#ff3333] font-semibold">TU</a>.
             </p>
             </AnimateOnScroll>
             
@@ -65,29 +66,61 @@ export default function ONas() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <AnimateOnScroll animation="fade-in-up" delay={200}>
                 <div className="bg-[#2a2a2a] p-6 rounded-lg hover:bg-[#333] transition-colors">
-                  <h3 className="text-2xl font-bold mb-2">Martin Hudák</h3>
+                  <div className="relative w-full h-96 mb-4 overflow-hidden rounded-lg">
+                    <Image
+                      src="/images/Martin.jpg"
+                      alt="Martin Hudak"
+                      fill
+                      className="object-cover object-top"
+                    />
+                  </div>
+                  <h3 className="text-2xl font-bold mb-2">Martin Hudak</h3>
                   <p className="text-gray-400">Gitara / Spev</p>
                 </div>
               </AnimateOnScroll>
               
               <AnimateOnScroll animation="fade-in-up" delay={350}>
                 <div className="bg-[#2a2a2a] p-6 rounded-lg hover:bg-[#333] transition-colors">
-                  <h3 className="text-2xl font-bold mb-2">Tomáš Thúr</h3>
+                  <div className="relative w-full h-96 mb-4 overflow-hidden rounded-lg">
+                    <Image
+                      src="/images/Tomas.jpg"
+                      alt="Tomas Thur"
+                      fill
+                      className="object-cover object-top"
+                    />
+                  </div>
+                  <h3 className="text-2xl font-bold mb-2">Tomas Thur</h3>
                   <p className="text-gray-400">Basgitara</p>
                 </div>
               </AnimateOnScroll>
               
               <AnimateOnScroll animation="fade-in-up" delay={500}>
                 <div className="bg-[#2a2a2a] p-6 rounded-lg hover:bg-[#333] transition-colors">
-                  <h3 className="text-2xl font-bold mb-2">Patrik Halász</h3>
-                  <p className="text-gray-400">Bicie</p>
+                  <div className="relative w-full h-96 mb-4 overflow-hidden rounded-lg">
+                    <Image
+                      src="/images/Tibor.jpg"
+                      alt="Tibor Kurilla"
+                      fill
+                      className="object-cover object-top"
+                    />
+                  </div>
+                  <h3 className="text-2xl font-bold mb-2">Tibor Kurilla</h3>
+                  <p className="text-gray-400">Gitara</p>
                 </div>
               </AnimateOnScroll>
               
               <AnimateOnScroll animation="fade-in-up" delay={650}>
                 <div className="bg-[#2a2a2a] p-6 rounded-lg hover:bg-[#333] transition-colors">
-                  <h3 className="text-2xl font-bold mb-2">Tibor Kurilla</h3>
-                  <p className="text-gray-400">Gitara</p>
+                  <div className="relative w-full h-96 mb-4 overflow-hidden rounded-lg">
+                    <Image
+                      src="/images/Patrik.jpg"
+                      alt="Patrik Halasz"
+                      fill
+                      className="object-cover object-top"
+                    />
+                  </div>
+                  <h3 className="text-2xl font-bold mb-2">Patrik Halasz</h3>
+                  <p className="text-gray-400">Bicie</p>
                 </div>
               </AnimateOnScroll>
             </div>

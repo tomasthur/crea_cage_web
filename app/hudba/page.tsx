@@ -3,6 +3,12 @@ import AnimateOnScroll from '@/components/AnimateOnScroll';
 
 const songs = [
   {
+    id: 7,
+    title: 'Som tu pre teba',
+    videoId: 'MDcnqwB1Qc0',
+    year: '2026',
+  },
+  {
     id: 1,
     title: 'Nesprávny smer',
     videoId: 'cl-IY9jf32g',
@@ -98,11 +104,19 @@ export default function Hudba() {
                 POČÚVAJTE NÁS AJ NA
               </h2>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a
+                  href="https://open.spotify.com/artist/0mrQHGqscNvLdINzb42DTn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-8 py-4 bg-[#252525] border border-[#3a3a3a] text-white font-bold text-lg rounded-lg hover:bg-[#2f2f2f] hover:border-[#ff0000] transition-all duration-200 hover:scale-105"
+                >
+                  SPOTIFY →
+                </a>
                 <a 
                   href="https://www.youtube.com/@creacage" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-8 py-4 bg-[#ff0000] text-white font-bold text-lg rounded hover:bg-[#cc0000] transition-colors"
+                  className="px-8 py-4 bg-[#252525] border border-[#3a3a3a] text-white font-bold text-lg rounded-lg hover:bg-[#2f2f2f] hover:border-[#ff0000] transition-all duration-200 hover:scale-105"
                 >
                   YOUTUBE →
                 </a>
