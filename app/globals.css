@@ -11,7 +11,7 @@
   --color-foreground: var(--foreground);
   --color-accent: var(--accent);
   --font-sans: var(--font-barlow);
-  --font-display: var(--font-bebas);
+  --font-display: var(--font-logo);
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-bebas), Impact, Arial Black, sans-serif;
+  font-family: var(--font-logo), Impact, Arial Black, sans-serif;
   letter-spacing: 0.05em;
 }
 

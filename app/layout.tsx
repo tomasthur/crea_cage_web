@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Bebas_Neue, Barlow_Condensed } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
 const bebasNeue = Bebas_Neue({
@@ -12,6 +13,18 @@ const barlowCondensed = Barlow_Condensed({
   variable: "--font-barlow",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
+});
+
+const borghsCC = localFont({
+  src: [
+    {
+      path: "../public/fonts/BorghsCC-Normal.ttf",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--font-logo",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -27,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="sk">
       <body
-        className={`${bebasNeue.variable} ${barlowCondensed.variable} antialiased`}
+        className={`${bebasNeue.variable} ${barlowCondensed.variable} ${borghsCC.variable} antialiased`}
       >
         {children}
       </body>
