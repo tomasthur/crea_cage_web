@@ -13,9 +13,9 @@ export const articles: Article[] = [
     id: '2',
     slug: 'crea-cage-su-spat-navrat-po-piatich-rokoch',
     title: 'CREA CAGE SÚ SPÄŤ: NÁVRAT PO PIATICH ROKOCH PRINESIE PÄŤ NOVÝCH SKLADIEB',
-    excerpt: 'Gelnická rocková kapela Crea Cage chýbala na koncertných pódiách dlhých päť rokov. S príchodom roka 2025 však chalani oznámili svoj návrat a fanúšikom sľubujú ambicióznu výzvu – päť nových skladieb za 5 mesiacov.',
+    excerpt: 'Gelnická rocková kapela Crea Cage chýbala na koncertných pódiách dlhých päť rokov. S príchodom roka 2026 však chalani oznámili svoj návrat a fanúšikom sľubujú ambicióznu výzvu – päť nových skladieb za 5 mesiacov.',
     content: `
-      <p>Gelnická rocková kapela Crea Cage chýbala na koncertných pódiách dlhých päť rokov. S príchodom roka 2025 však chalani oznámili svoj návrat a fanúšikom sľubujú ambicióznu výzvu – päť nových skladieb za 5 mesiacov.</p>
+      <p>Gelnická rocková kapela Crea Cage chýbala na koncertných pódiách dlhých päť rokov. S príchodom roka 2026 však chalani oznámili svoj návrat a fanúšikom sľubujú ambicióznu výzvu – päť nových skladieb za 5 mesiacov.</p>
       
       <p>„Číslo päť má pre nás hlboký význam. Päť rokov sme nehrali, a preto sa chceme ľuďom pripomenúť piatimi novými songami, ktorými by sme spolu opäť oživili Crea Cage rodinu", vysvetľuje basgitarista kapely Tomáš Thúr.</p>
       
