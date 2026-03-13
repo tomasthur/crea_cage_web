@@ -69,12 +69,12 @@ export default function ONas() {
                   <div className="relative w-full h-96 mb-4 overflow-hidden rounded-lg">
                     <Image
                       src="/images/Martin.jpg"
-                      alt="Martin Hudak"
+                      alt="Martin Hudák"
                       fill
                       className="object-cover object-top"
                     />
                   </div>
-                  <h3 className="text-2xl font-bold mb-2">Martin Hudak</h3>
+                  <h3 className="text-2xl font-bold mb-2">Martin Hudák</h3>
                   <p className="text-gray-400">Gitara / Spev</p>
                 </div>
               </AnimateOnScroll>
@@ -84,12 +84,12 @@ export default function ONas() {
                   <div className="relative w-full h-96 mb-4 overflow-hidden rounded-lg">
                     <Image
                       src="/images/Tomas.jpg"
-                      alt="Tomas Thur"
+                      alt="Tomáš Thúr"
                       fill
                       className="object-cover object-top"
                     />
                   </div>
-                  <h3 className="text-2xl font-bold mb-2">Tomas Thur</h3>
+                  <h3 className="text-2xl font-bold mb-2">Tomáš Thúr</h3>
                   <p className="text-gray-400">Basgitara</p>
                 </div>
               </AnimateOnScroll>
@@ -114,12 +114,12 @@ export default function ONas() {
                   <div className="relative w-full h-96 mb-4 overflow-hidden rounded-lg">
                     <Image
                       src="/images/Patrik.jpg"
-                      alt="Patrik Halasz"
+                      alt="Patrik Halász"
                       fill
                       className="object-cover object-top"
                     />
                   </div>
-                  <h3 className="text-2xl font-bold mb-2">Patrik Halasz</h3>
+                  <h3 className="text-2xl font-bold mb-2">Patrik Halász</h3>
                   <p className="text-gray-400">Bicie</p>
                 </div>
               </AnimateOnScroll>
